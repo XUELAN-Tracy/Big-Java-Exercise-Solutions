@@ -1,4 +1,4 @@
-package chapter5.codestudy;
+package chapter5.exercises;
 
 /**
  * A test class.
