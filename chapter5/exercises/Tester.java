@@ -12,6 +12,5 @@ public class Tester {
         String s2 = "abc";
 
         System.out.println(s1.compareTo(s2));
-        System.out.println(s2.compareTo(s1));
     }
 }
