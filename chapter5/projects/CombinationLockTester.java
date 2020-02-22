@@ -14,12 +14,11 @@ public class CombinationLockTester {
         Scanner in = new Scanner(System.in);
         CombinationLock lock = new CombinationLock("TCC");
         System.out.println("Please dial (enter \"done\" when you finish): ");
-        String input = in.nextLine();
-        while (!input.equals("done")) {
+        String input;
+        while (!(input = in.nextLine()).equals("done")) {
             lock.setDial(input);
-            input = in.nextLine();
-            lock.unlock();
         }
+        lock.unlock();
         if (lock.isOpen()) {
             System.out.println("The lock has been opened!");
         } else {

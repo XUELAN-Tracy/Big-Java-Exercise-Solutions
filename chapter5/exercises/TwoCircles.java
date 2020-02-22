@@ -13,10 +13,8 @@ public class TwoCircles {
     private double xTop, yLeft;
     private double xCenter, yCenter;
     private double radius;
-    private Point2D.Double centerPoint;
 
     public TwoCircles(Point2D.Double centerPoint, double radius) {
-        this.centerPoint = centerPoint;
         this.radius = radius;
         this.xTop = centerPoint.getX() - radius;
         this.yLeft = centerPoint.getY() - radius;
