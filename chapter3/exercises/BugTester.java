@@ -4,7 +4,7 @@ package chapter3.exercises;
  * A class to test Bug.
  * @author xuelan
  */
-public class BugTester {
+public class BugTester{
 
 	/**
 	 * Tests the methods of Bug class.
@@ -26,5 +26,4 @@ public class BugTester {
 		System.out.println("The expected: 9");
 
 	}
-
 }
