@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 
 /**
+ * This program draws a grid of 20 cross streets and a drunkard's walking trace.
  * @author LanXue
  * @date 2020-02-28 02:44
  */

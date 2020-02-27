@@ -19,6 +19,14 @@ public class Grid {
     // vertical or horizontal
     int numberOfStreets;
 
+    /**
+     * Constructs a new grid with given information,
+     * including the distance between the two parallel streets and the number of cross streets.
+     * @param xLeft the x coordinate of the top left corner
+     * @param yTop the y coordinate of the top left corner
+     * @param distance the distance between the two parallel streets
+     * @param numberOfStreets the number of cross streets
+     */
     public Grid(int xLeft, int yTop, int distance, int numberOfStreets) {
         this.xLeft = xLeft;
         this.yTop = yTop;
@@ -26,6 +34,10 @@ public class Grid {
         this.numberOfStreets = numberOfStreets;
     }
 
+    /**
+     * Draws this block.
+     * @param g2 the graphics context
+     */
     public void drawGrid(Graphics2D g2) {
 
         Line2D.Double horizontal = new Line2D.Double(xLeft, yTop, xLeft + distance * (numberOfStreets - 1), yTop);
